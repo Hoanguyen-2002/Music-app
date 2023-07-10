@@ -1,15 +1,18 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { HiOutlineHashtag, HiOutlineHome, HiOutlineMenu, HiOutlinePhotograph, HiOutlineUserGroup } from 'react-icons/hi';
+import { HiOutlineHashtag, HiOutlineHome, HiOutlineMenu, HiOutlinePhotograph, HiOutlineUserGroup , HiMusicNote , HiOutlineUserCircle } from 'react-icons/hi';
 import { RiCloseLine } from 'react-icons/ri';
 
 import { logo } from '../assets';
 
 const links = [
-  { name: 'Discover', to: '/', icon: HiOutlineHome },
-  { name: 'Around You', to: '/around-you', icon: HiOutlinePhotograph },
-  { name: 'Top Artists', to: '/top-artists', icon: HiOutlineUserGroup },
-  { name: 'Top Charts', to: '/top-charts', icon: HiOutlineHashtag },
+  { name: 'Khám phá', to: '/', icon: HiOutlineHome },
+  { name: 'Xung quanh bạn', to: '/around-you', icon: HiOutlinePhotograph },
+  { name: 'Danh sách yêu thích', to: '/play-list', icon: HiMusicNote },
+  { name: 'Nghệ sĩ nổi bật', to: '/top-artists', icon: HiOutlineUserGroup },
+  { name: 'Bảng xếp hạng', to: '/top-charts', icon: HiOutlineHashtag },
+  // { name: token ? 'TrungKien': 'Đăng nhập', to: token ? '/TrungKien': '/log-in', icon: HiOutlineUserCircle},
+  // { name: token ? 'Đăng xuất' : '', to: token ? '/log-out':'/register' , icon: HiOutlineUserCircle},
 ];
 
 const NavLinks = ({ handleClick }) => (

@@ -1,4 +1,7 @@
-# Build and Deploy a Better Spotify 2.0 Clone Music App with React 18! (Tailwind, Shazam, Redux)
-![Spotify Clone](https://i.ibb.co/mFh2kGZ/Thumbnail-2.png)
-
-### Launch your development career with project-based coaching on [JS Mastery Pro](https://www.jsmastery.pro).
+<h1>Hướng dẫn cài đặt</h1>
+<ul>
+    <li>tải node.js ver 14</li>
+    <li>tải bộ fontawesome</li>
+    <li>sử dụng câu lệnh npm i để tải toàn bộ các node modules</li>
+    <li>sử dụng câu lệnh npm run dev để chạy chương trình (trên cổng 3000)</li>
+</ul>

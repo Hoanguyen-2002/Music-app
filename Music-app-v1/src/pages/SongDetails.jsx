@@ -37,7 +37,7 @@ const SongDetails = () => {
       />
 
       <div className="mb-10">
-        <h2 className="text-white text-3xl font-bold">Lyrics:</h2>
+        <h2 className="text-white text-3xl font-bold">Lời bài hát:</h2>
 
         <div className="mt-5">
           {songData?.sections[1].type === 'LYRICS'
@@ -45,7 +45,7 @@ const SongDetails = () => {
               <p key={`lyrics-${line}-${i}`} className="text-gray-400 text-base my-1">{line}</p>
             ))
             : (
-              <p className="text-gray-400 text-base my-1">Sorry, No lyrics found!</p>
+              <p className="text-gray-400 text-base my-1">Xin lỗi, không tìm thấy lời bài hát!</p>
             )}
         </div>
       </div>

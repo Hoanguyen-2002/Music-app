@@ -1,6 +1,6 @@
 <h1>Hướng dẫn cài đặt</h1>
 <ul>
-    <li>tải node.js ver 14</li>
+    <li>tải <a href=”https://nodejs.org/es/blog/release/v14.17.3”>Node JS v14</a></li>
     <li>tải bộ fontawesome bằng 3 câu lệnh sau</li>
     <pre>npm install --save @fortawesome/free-solid-svg-icons</pre>
     <pre>npm install --save @fortawesome/react-fontawesome</pre>
